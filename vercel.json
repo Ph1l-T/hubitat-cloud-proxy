@@ -2,11 +2,10 @@
   "version": 2,
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "vercel-node@5.3.20"
     }
   },
   "routes": [
     { "src": "/hubitat/(.*)", "dest": "/api/hubitat/$1" }
   ]
 }
-
